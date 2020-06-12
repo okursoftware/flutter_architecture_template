@@ -1,16 +1,26 @@
-# flutter_architecture
+# flutter_architecture_template
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+![](assets/use.png)
+```bash
+$ pub pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Rename Organizer
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```bash
+$ pub global active rename
+$ pub global run rename --bundleId com.test.newName
+$ pub global run rename --appname "Network Upp"
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Meta
+
+Muhammed OKUR – [@linkedin](https://www.linkedin.com/in/muhammed-okur-035b06111/) – muhammedokur@yaani.com
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
+
+[https://github.com/okursoftware](https://github.com/okursoftware/)
