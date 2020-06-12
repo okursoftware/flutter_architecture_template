@@ -9,13 +9,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_architecture/view/splash/splash_view.dart';
 import 'package:flutter_architecture/view/home/home_view.dart';
+import 'package:flutter_architecture/view/login/login_view.dart';
 
 abstract class Routes {
   static const splashView = '/';
   static const homeView = '/home-view';
+  static const loginView = '/login-view';
   static const all = {
     splashView,
     homeView,
+    loginView,
   };
 }
 
@@ -38,6 +41,11 @@ class Router extends RouterBase {
       case Routes.homeView:
         return MaterialPageRoute<dynamic>(
           builder: (context) => HomeView(),
+          settings: settings,
+        );
+      case Routes.loginView:
+        return MaterialPageRoute<dynamic>(
+          builder: (context) => LoginView(),
           settings: settings,
         );
       default:

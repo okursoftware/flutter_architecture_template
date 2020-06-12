@@ -12,9 +12,18 @@ class HomeView extends StatelessWidget {
                 title: Text("Home Screen"),
               ),
               body: Center(
-                child: Text(
-                  "Welcome Home",
-                  style: TextStyle(color: Colors.orange, fontSize: 24),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      "Welcome Home",
+                      style: TextStyle(color: Colors.orange, fontSize: 24),
+                    ),
+                    RaisedButton(
+                      onPressed: model.goToLogin,
+                      child: Text("Go Login"),
+                    ) ,
+                  ],
                 ),
               ),
             ),
