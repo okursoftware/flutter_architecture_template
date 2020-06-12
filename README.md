@@ -5,7 +5,8 @@
 
 ![](assets/use.png)
 ```bash
-$ pub pub get
+$ flutter pub get
+$ flutter run
 ```
 
 ## Rename Organizer
@@ -13,7 +14,7 @@ $ pub pub get
 ```bash
 $ pub global active rename
 $ pub global run rename --bundleId com.test.newName
-$ pub global run rename --appname "Network Upp"
+$ pub global run rename --appname "Test Name"
 ```
 
 
