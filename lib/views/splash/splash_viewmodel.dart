@@ -9,9 +9,7 @@ class SplashViewModel extends FutureViewModel {
   NavigationService _navigationService = locator<NavigationService>();
 
   Future waitAndGoHome() async{
-    print("A1");
     await _waitService.waitTwoSecond();
-    print("A2");
     _navigationService.pushNamedAndRemoveUntil(Routes.homeView);
   }
 
