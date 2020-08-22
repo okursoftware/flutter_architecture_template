@@ -20,7 +20,7 @@ class AuthService {
         await _apiClient.post();
         //maybe json decode
       }
-      return new User(name: "TestName", surname: "TestSurname");
+      return User(name: "TestName", surname: "TestSurname");
     } catch (e) {
       throw Exception();
     }

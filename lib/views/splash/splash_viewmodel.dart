@@ -7,9 +7,11 @@ import 'package:stacked_services/stacked_services.dart';
 class SplashViewModel extends FutureViewModel {
   WaitService _waitService = locator<WaitService>();
   NavigationService _navigationService = locator<NavigationService>();
+
   Future waitAndGoHome() async{
+    print("A1");
     await _waitService.waitTwoSecond();
-    //not to come back
+    print("A2");
     _navigationService.pushNamedAndRemoveUntil(Routes.homeView);
   }
 
