@@ -1,3 +1,4 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_architecture/constants/strings.dart';
 import 'package:stacked_services/stacked_services.dart';

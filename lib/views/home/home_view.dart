@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_architecture/view/home/home_viewmodel.dart';
-import 'package:flutter_architecture/view/splash/splash_viewmodel.dart';
 import 'package:stacked/stacked.dart';
+
+import 'home_viewmodel.dart';
 
 class HomeView extends StatelessWidget {
   @override
